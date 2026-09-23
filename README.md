@@ -1,1 +1,18 @@
-# Microprocessor-architecture-b
+LDA 2500H
+SUI 30H
+MOV B,A
+
+LDA 2501H
+SUI 37H
+RLC
+RLC
+RLC
+RLC
+ORA B
+Output 
+STA 2502H
+HLT
+2500H = 35H
+2501H = 41H
+
+2502H = 5AH
